@@ -1,3 +1,7 @@
+O Site da Ípsillon foi totalmente reformulado, a partir do template disponibilizado conforme os dados abaixo.
+Fique à vontade para baixá-lo e alterar como desejar.
+Estamos caminhando!
+
 # [Global: HTML5 website template](http://buckymaler.com/global)
 
 ### [Featured on Freebiesbug](http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/)
