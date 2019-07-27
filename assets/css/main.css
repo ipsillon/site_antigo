@@ -761,9 +761,13 @@ body {
 }
 
 .intro--banner img {
+    margin: 0;
+    
     position: absolute;
-    bottom: 21px;
-    right: -12px
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 
 .intro--options {
