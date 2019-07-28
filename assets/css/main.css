@@ -1236,17 +1236,20 @@ body {
 .about--options>a {
     position: relative;
     width: 150px;
-    height: 75px;
+    height: 15px;
     text-decoration: none;
     color: #fff;
-    border: 5px solid #40b297;
+    font-size: 68px;
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
 }
 
+/*
 .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-image: url("../img/about-winners.jpg"); 
+ 
 }
 
 .about--options>a:nth-child(2) {
@@ -1255,7 +1258,7 @@ body {
 
 .about--options>a:nth-child(3) {
     background-image: url("../img/about-history.jpg")
-}
+}*/
 
 .about--options>a:hover h3 {
     bottom: -50px
