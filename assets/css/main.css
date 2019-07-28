@@ -870,7 +870,7 @@ body {
     }
 
     .intro--banner img {
-       /* display: none*/
+        display: none
     }
 }
 
@@ -1038,8 +1038,7 @@ body {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center;
-    background-color: #c6c6c6;
+    justify-content: center;    
     border-radius: 50%;
     cursor: pointer
 }
@@ -1128,6 +1127,7 @@ body {
     margin: 0 auto
 }
 
+
 @media (max-width: 1180px) {
     .about {
         max-width: 100%
@@ -1136,7 +1136,8 @@ body {
 
 .about--banner {
     position: relative;
-    height: 475px
+    height: 475px;
+    
 }
 
 .about--banner::before {
@@ -1171,27 +1172,15 @@ body {
     line-height: 1;
     z-index: 1
 }
-
-.about--banner h2::before {
-    content: "";
-    position: absolute;
-    top: 60px;
-    left: 268px;
-    width: 30px;
-    height: 30px;
-    background-color: #40b297;
-    border-radius: 50%
+.about--banner--modelo h2 {
+    position: relative;
+    margin-top: 40px;
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 1;    
 }
 
-.about--banner h2::after {
-    content: "";
-    position: absolute;
-    top: 255px;
-    left: 255px;
-    width: 10px;
-    height: 10px;
-    background-color: #40b297
-}
+
 
 .about--banner a {
     padding: 5px 17px 5px 0;
@@ -1215,18 +1204,13 @@ body {
     transition: left .2s ease-in-out
 }
 
-.about--banner img {
-    position: absolute;
-    bottom: -90px;
-    right: -12px
-}
+
 
 .about--options {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
-    max-width: 600px;
+    display: flex;    
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -1236,13 +1220,26 @@ body {
     list-style: none
 }
 
+.about--img{
+    margin:0 auto;
+    max-width: 70% ;
+    margin: 0;
+    margin-right: 0px;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
 .about--options>a {
     position: relative;
     width: 150px;
     height: 75px;
     text-decoration: none;
     color: #fff;
-    border: 10px solid #40b297;
+    border: 5px solid #40b297;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -1352,22 +1349,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../img/y/o-que-fazemos-art.png");
+    background-image: url("../img/y/vetor_fundo.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
 }
-.contact1 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/y/balaozao.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat
-}
+
 
 
 .contact--lockup {
@@ -1410,8 +1397,8 @@ body {
 .contact--lockup .modal {
     padding: 45px 45px;
     text-align: center;
-    background-color: #0c0c0c;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75)
+    
+    
 }
 
 .contact--lockup .modal--information p,
@@ -1434,23 +1421,38 @@ body {
 }
 
 .contact--lockup .modal--options>li {
-    width: 130px;
+    width: 230px;
     margin: 0 auto 25px auto
 }
 
 .contact--lockup .modal--options li:nth-child(1) {
-    background-color: #1769ff
+    background-color: #1769ff;
+    text-transform: uppercase
 }
 
 .contact--lockup .modal--options li:nth-child(2) {
-    background-color: #ea4c89
+    background-color: #ea4c89;
+    text-transform: uppercase
 }
 
 .contact--lockup .modal--options li:nth-child(3) {
-    margin-bottom: 0;
-    background-color: #40b297;
+    
+    background-color: #17488b;
     text-transform: uppercase
 }
+.contact--lockup .modal--options li:nth-child(4) {
+    
+    background-color: #136866;
+    text-transform: uppercase
+}
+.contact--lockup .modal--options li:nth-child(5) {
+    
+    background-color: #393e44;
+    text-transform: uppercase
+}
+
+
+
 
 .contact--lockup .modal--options a {
     display: block;
@@ -1836,7 +1838,7 @@ body {
     -webkit-transform: translate(-50%, -25%);
     transform: translate(-50%, -25%);
     width: 110%;
-    height: 15px;
+    height: 5px;
     opacity: 0;
     background-color: #40b297;
 }
