@@ -728,6 +728,11 @@ body {
     font-size: 16px;
     text-transform: uppercase
 }
+.intro--options h3 i{
+    font-size: 16p;
+    color: #40b297;
+    text-transform: uppercase
+}
 
 .intro--options p {
     margin-bottom: 0
@@ -1063,7 +1068,7 @@ body {
     
 }
 
-.about--banner::before {
+.about--banner::before  {
     content: "";
     position: absolute;
     top: 20px;
@@ -1088,9 +1093,8 @@ body {
 }
 
 .about--banner h2 {
-    position: relative;
-    margin-top: 35px;
-    font-size: 68px;
+    position: relative;    
+    font-size: 40px;
     font-weight: 900;
     line-height: 1;
     z-index: 1
@@ -1104,9 +1108,7 @@ body {
 }
 
 
-
-.about--banner a {
-    padding: 5px 17px 5px 0;
+.about--banner a {    
     text-decoration: none;
     color: #fff;
     font-weight: 700;
@@ -1143,18 +1145,11 @@ body {
     list-style: none
 }
 
-.about--img{
-    margin:0 auto;
-    max-width: 70% ;
-    margin: 0;
-    margin-right: 0px;
-    position: relative;
-    top: 30%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-
+.about--img{    
+    max-width: 60% ;
+    margin-left:20%;
 }
+
 
 .about--options>a {
     position: relative;
@@ -1214,7 +1209,7 @@ body {
 
     .about--banner h2 {
         margin-top: 10px;
-        font-size: 44px
+        font-size: 40px
     }
 
     .about--banner h2::before {
@@ -1247,7 +1242,7 @@ body {
 
     .about--banner h2 {
         margin-top: 0;
-        font-size: 55px
+        font-size: 40px
     }
 
     .about--banner h2::before {
