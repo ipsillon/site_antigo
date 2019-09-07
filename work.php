@@ -1,8 +1,8 @@
 <div class="work">
     <h2>O que fazemos</h2>
     <div class="work--lockup">
-        <ul class="slider">
-        <li class="slider--item slider--item-center">
+    <ul class="slider">
+        <li class="slider--item ">
             <a href="#0">
             <div class="slider--item-image">
                 <img src="assets/img/y/robo.png" alt="Victory">
@@ -11,13 +11,22 @@
             <p class="slider--item-description">Pesquisa, Desenvolvimento e Inovação</p>
             </a>
         </li>
+        <li class="slider--item slider--item-center">
+            <a href="#0">
+            <div class="slider--item-image">
+                <img src="assets/img/y/robo.png" alt="Victory">
+            </div>
+            <p class="slider--item-title">Transformação Digital Y - (TDY)</p>
+            <p class="slider--item-description">Preparação do modelo de negócio para inovação e tecnologia.</p>
+            </a>
+        </li>
         <li class="slider--item slider--item-left">
             <a href="#0">
             <div class="slider--item-image">
                 <img src="assets/img/y/iphone.png" alt="Victory">
             </div>
-            <p class="slider--item-title">Inteligêcia de Mercado</p>
-            <p class="slider--item-description">Customer Relationship Management</p>
+            <p class="slider--item-title">Inteligência de Mercado - CRM</p>
+            <p class="slider--item-description">Gestão de Relacionamento com o Cliente, processos, softwares.</p>
             </a>
         </li>
         <li class="slider--item slider--item-right">
@@ -25,8 +34,8 @@
             <div class="slider--item-image">
                 <img src="assets/img/y/robozinho.png" alt="Victory">
             </div>
-            <p class="slider--item-title">Aplicações e Plataformas</p>
-            <p class="slider--item-description"></p>
+            <p class="slider--item-title">Plataformas Integradas</p>
+            <p class="slider--item-description">Gestão e Inteligência de dados para Inovação de estratégias de negócio.</p>
             </a>
         </li>
         </ul>
