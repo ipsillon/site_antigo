@@ -278,7 +278,7 @@ body {
 
 body {
     background-color: #393e44;
-    background-image: url('../img/y/bg.jpg');
+    background-image: linear-gradient(to right, #343b43,#3e5b5b);
     font-size: 14px;
     line-height: 1.6;
     font-family: "Montserrat", sans-serif;
