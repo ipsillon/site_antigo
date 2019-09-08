@@ -91,6 +91,6 @@
             <label for="email">E-mail</label>
         </div>
         </div>
-        <input type="submit" value="Enviar">
+        <input type="submit" id="send_form" onclick="send()" value="Enviar">
     </form>
     </div>

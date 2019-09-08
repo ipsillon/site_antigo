@@ -101,6 +101,15 @@
       <li>Fale Conosco</li>
     </ul>
   </div>
+  <style>
+  .swal2-content{
+    color:#FFF;
+  }
+  .swal2-styled.swal2-confirm {
+    border-radius: 0;
+    border: none;
+  } 
+  </style>
 
   <!--layout js-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -122,7 +131,52 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script>
+    
+    document.getElementById("send_form").addEventListener("click", function(event){
+      event.preventDefault()
+    });
 
+    function send() {
+
+      var name = $('#name').val();
+      var mail = $('#email').val();
+
+      if(name == '') {
+        return false;
+      }
+
+      if(mail == '') {
+        return false;
+      }
+
+      $.ajax({
+
+        type: "POST",
+
+        url: 'form_plus.php',
+
+        data: { nome: name, email: mail },
+
+        success: function(data) {
+          
+          data = JSON.parse(data);
+          
+          if (data.response == 'success') {
+            Swal.fire({
+              imageUrl: "assets/img/y/Y_semborda_grande.ai.png",
+              html: "Muito obrigado!<br>Em breve entraremos em contato.",
+              imageSize: '100x100',
+              background: '#205e5b',
+              confirmButtonText: 'Ok',
+              confirmButtonColor: '#40b297'
+            })
+          } 
+        }
+      });
+    }
+  </script>  
 
 </body>
 
