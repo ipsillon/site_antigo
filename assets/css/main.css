@@ -279,7 +279,7 @@ body {
 body {
     background-color: #393e44;
     background-image: linear-gradient(to right, #343b43,#3e5b5b);
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.6;
     font-family: "Montserrat", sans-serif;
     color: #fff;
@@ -393,7 +393,7 @@ body {
 
 .device-notification--logo p {
     margin: 0 0 0 10px;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 700;
     text-transform: uppercase
 }
@@ -477,7 +477,7 @@ body {
 
 .header--logo p {
     margin: 0 0 0 10px;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 700;
     text-transform: uppercase
 }
@@ -589,7 +589,7 @@ body {
     position: relative;
     top: -5px;
     color: #fff;
-    font-size: 6px;
+    font-size: 1em;
     cursor: pointer
 }
 
@@ -598,7 +598,7 @@ body {
     top: 3px;
     left: 10px;
     color: #fff;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 300;
     opacity: 0;
     visibility: hidden
@@ -609,7 +609,7 @@ body {
     top: 3px;
     left: 10px;
     color: #c6c6c6;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 300
 }
 
@@ -725,7 +725,7 @@ body {
 }
 
 .intro--options h3 {
-    font-size: 16px;
+    font-size: 1.2em;
     text-transform: uppercase
 }
 .intro--options h3 i{
@@ -850,7 +850,7 @@ body {
 
 .work h2 {
     margin: 0 0 20px 0;
-    font-size: 30px;
+    font-size: 2em;
     text-align: center
 }
 
@@ -883,7 +883,7 @@ body {
 
 .work--lockup .slider--item-title {
     margin-top: 10px;
-    font-size: 12px;
+    font-size: .9em;
     font-weight: 700;
     text-transform: uppercase
 }
@@ -937,7 +937,7 @@ body {
 
 .work--lockup .slider--item-center .slider--item-title {
     margin-top: 25px;
-    font-size: 16px
+    font-size: 1.2em;
 }
 
 .work--lockup .slider--item-center .slider--item-description {
@@ -1186,7 +1186,7 @@ body {
     position: absolute;
     bottom: -38px;
     left: 10px;
-    font-size: 16px;
+    font-size: 1.2em;
     text-transform: uppercase;
     -webkit-transition: bottom .2s ease-in-out, left .2s ease-in-out;
     transition: bottom .2s ease-in-out, left .2s ease-in-out
@@ -1458,7 +1458,7 @@ body {
     width: 400px;
     max-width: 100%;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #40b297;
@@ -1519,7 +1519,7 @@ body {
     width: 200px;
     margin-bottom: 30px;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 700;
     text-align: center;
     border: 2px solid #fff;
@@ -1585,7 +1585,7 @@ body {
 .work-request--information input[type="text"]:focus,
 .work-request--information input[type="email"]:focus {
     outline: none;
-    background-color: #0c0c0c
+    
 }
 
 .work-request--information label {
