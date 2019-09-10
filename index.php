@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
   <title>Ípsillon | Y</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
+  <meta name="description" content="Startup de Transformação Digital, inteligência de negócios e modelos disruptivos.">  
+  <meta name="keywords" content="Inovação, Transformação Digital, CRM, ERP, Tecnologia, Inteligência de negócios, disrupção">
+  <meta name="author" content="Ípsillon | Y">
   <link rel="stylesheet" href="assets/css/main.css">
   <link href="favicon.ico" rel="icon" type="image/x-icon" />
 
