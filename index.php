@@ -37,7 +37,7 @@
         <div class="l-wrapper">
           
           <header class="header">
-            <a class="header--logo" href="#0">
+            <a class="header--logo" href="/">
               <img src="assets/img/y/logo_peq.png" alt="Global">
             </a>
             <div class="header--nav-toggle">

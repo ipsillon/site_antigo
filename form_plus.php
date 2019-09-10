@@ -21,6 +21,10 @@ try {
     //Recipients
     $mail->setFrom('contato@ipsillon.cc', 'Contato');
     $mail->addAddress('contato@ipsillon.cc', 'Contato');     // Add a recipient
+    $mail->addAddress('fernando@ipsillon.cc', 'Contato');     // Add a recipient
+    $mail->addAddress('leandro@ipsillon.cc', 'Contato');     // Add a recipient
+    $mail->addAddress('gustavo@ipsillon.cc', 'Contato');     // Add a recipient
+    $mail->addAddress('alberto@ipsillon.cc', 'Contato');     // Add a recipient
     $mail->AddReplyTo($_POST['email'], $_POST['name']);
     
     // Content
