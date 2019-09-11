@@ -5,6 +5,6 @@
         <li><span>Modelo de Negócio</span></li>
         <li><span>O que fazemos</span></li>
         <li><span>Contato</span></li>
-        <li><span>Fale Conosco</span></li>
+        
     </ul>
 </nav>
