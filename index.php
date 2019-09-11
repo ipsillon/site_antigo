@@ -141,6 +141,12 @@
 
       var name = $('#name').val();
       var mail = $('#email').val();
+      var opt1 = $('#opt-1').val();
+      var opt2 = $('#opt-2').val();
+      var opt3 = $('#opt-3').val();
+      var opt4 = $('#opt-4').val();
+      var opt5 = $('#opt-5').val();
+      var opt6 = $('#opt-6').val();
 
       if(name == '') {
         return false;
@@ -151,12 +157,17 @@
       }
 
       $.ajax({
-
         type: "POST",
-
         url: 'form_plus.php',
-
-        data: { nome: name, email: mail },
+        data: { nome: name, 
+              email: mail ,
+              op1: opt1 ,
+              op2: opt2 ,
+              op3: opt3 ,
+              op4: opt4 ,
+              op5: opt5 ,
+              op6: opt6,
+        },
 
         success: function(data) {
           

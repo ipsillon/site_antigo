@@ -31,6 +31,7 @@ try {
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Quero saber mais sobre';
     $mail->Body    = implode('<br>', $_POST);
+    
    
     $mail->send();
 

@@ -14,7 +14,7 @@
         <li class="slider--item slider--item-center">
             <a href="#0">
             <div class="slider--item-image">
-                <img src="assets/img/y/robo.png" alt="Victory">
+                <img src="assets/img/y/td.png" alt="Victory">
             </div>
             <p class="slider--item-title">Transformação Digital Y - (TDY)</p>
             <p class="slider--item-description">Preparação do modelo de negócio para inovação e tecnologia.</p>
@@ -32,7 +32,7 @@
         <li class="slider--item slider--item-right">
             <a href="#0">
             <div class="slider--item-image">
-                <img src="assets/img/y/robozinho.png" alt="Victory">
+                <img src="assets/img/y/pi.png" alt="Victory">
             </div>
             <p class="slider--item-title">Plataformas Integradas</p>
             <p class="slider--item-description">Gestão e Inteligência de dados para Inovação de estratégias de negócio.</p>
