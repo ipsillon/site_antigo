@@ -79,13 +79,6 @@
                 include_once('contact.php');
               ?>
             </li>
-
-            <li class="l-section section">
-              <?php
-                include_once('plus.php');
-              ?>
-            </li>
-
           </ul>
 
         </div>
@@ -97,7 +90,6 @@
       <li>Modelo de negócio </li>
       <li>O que fazemos</li>
       <li>Contato</li>
-      <li>Fale Conosco</li>
     </ul>
   </div>
   <style>
