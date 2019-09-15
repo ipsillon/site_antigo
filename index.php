@@ -10,10 +10,12 @@
   <meta name="author" content="Ípsillon | Y">
   <link rel="stylesheet" href="assets/css/main.css">
   <link href="favicon.ico" rel="icon" type="image/x-icon" />
+  
 
 </head>
 
 <body>
+  <!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-147984989-1"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-147984989-1');</script>
 
   <!-- notification for small viewports and landscape oriented smartphones -->
   <div class="device-notification">
